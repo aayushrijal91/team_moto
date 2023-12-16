@@ -29,21 +29,9 @@ function imgSquash() {
         .pipe(gulp.dest("./app/assets/images"));
 }
 
-function slick_assets() {
-    return gulp.src('./node_modules/slick-carousel/slick/ajax-loader.gif')
-        .pipe(gulp.dest('./app/assets/css'));
-}
-
-function slick_fonts() {
-    return gulp.src('./node_modules/slick-carousel/slick/fonts/**/*')
-        .pipe(gulp.dest('./app/assets/css/fonts/'));
-}
-
 function scripts() {
     const scriptsList = [
         './node_modules/jquery/dist/jquery.min.js',
-        './node_modules/slick-carousel/slick/slick.min.js',
-        // './node_modules/aos/dist/aos.js',
         './scripts/main.js',
     ];
 
@@ -65,9 +53,5 @@ function watch() {
 }
 
 exports.watch = gulp.series(
-    gulp.parallel(
-        slick_assets,
-        slick_fonts,
-    ),
     watch
 );
