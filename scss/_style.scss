@@ -1,0 +1,18 @@
+section.banner {
+    background: imgUrl('banner.jpg') center;
+    background-size: cover;
+    padding: 25px;
+
+    @media screen and (max-width: 900px) {
+        padding: 16px;
+    }
+}
+
+section.reasons {
+    background: imgUrl('reasons.jpg') center;
+    background-size: cover;
+
+    @media screen and (max-width: 540px) {
+        background-position-x: 35%;
+    }
+}
