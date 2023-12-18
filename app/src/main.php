@@ -109,8 +109,8 @@
             <div class="w-full lg:w-5/12 px-2">
                 <div class="h-full rounded-10 bg-white text-center flex flex-col items-center">
                     <div class="pt-10 pb-5 w-10/12 mx-auto">
-                        <p class="uppercase text-black text-lg font-medium">Step 04</p>
-                        <p class="capitalize text-primary text-2xl font-semibold">Apply to Lender</p>
+                        <p class="uppercase text-primary text-lg font-medium">Step 04</p>
+                        <p class="capitalize text-black text-2xl font-semibold">Apply to Lender</p>
                     </div>
                     <?= renderImg('step-4.png', 'lib', 'h-full') ?>
                 </div>
