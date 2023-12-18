@@ -14,7 +14,7 @@
 
     <section class="flex flex-wrap justify-between items-center gap-y-5">
         <div class="w-full lg:w-1/2 xl:w-5/12 description text-base md:text-xl text-dark">
-            <p>At Team Moto, we take pride in our expertise in oragnising motorcycle finance for our customers. We offer a quick, convenient, and competitive financing service that is unmatched in this country.</p>
+            <p>At TeamMoto, we take pride in our expertise in organising motorcycle finance for our customers. We offer a quick, convenient, and competitive financing service that is unmatched in this country.</p>
             <p>As Australia’s largest retailer of motorcycles, we also hold the distinction of being the country’s premier provider of motorcycle financing. Whether it’s your first or tenth bike, we’re here to assist you in securing financing, complete with the option to include accessories, mechanical protection plans, riding gear, and motorcycle training—often with no upfront deposit required. Let us make your bike ownership dreams a reality.</p>
         </div>
 
@@ -77,7 +77,6 @@
                     <div class="pt-10 pb-4 w-10/12 xl:w-1/2 mx-auto">
                         <p class="uppercase text-primary text-lg font-medium">Step 01</p>
                         <p class="capitalize text-black text-2xl font-semibold">Quick Calculator</p>
-                        <p class="text-sm pt-2 text-grey">Instantly calculate your loan options with our smart online calculator</p>
                     </div>
                     <?= renderImg('step-1.png', 'lib', 'h-full') ?>
                 </div>
@@ -85,28 +84,24 @@
 
             <div class="w-full lg:w-7/12 px-2">
                 <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row px-10">
-                    <div class="py-5 w-full md:w-5/12 flex flex-col justify-center text-center md:text-start">
+                    <div class="py-5 w-full md:w-4/12 flex flex-col justify-center text-center md:text-start">
                         <p class="uppercase text-primary text-lg font-medium">Step 02</p>
                         <p class="capitalize text-black text-2xl font-semibold">Real Quote</p>
-                        <p class="text-sm pt-2 text-grey">Instant Finance Pre-Approval with
-                            no impact on your credit score.</p>
                     </div>
-                    <div class="w-full md:w-7/12 flex justify-center">
+                    <div class="w-full md:w-8/12 flex justify-center">
                         <?= renderImg('step-2.png', 'lib', 'h-full w-full') ?>
                     </div>
                 </div>
             </div>
 
             <div class="w-full lg:w-7/12 px-2">
-                <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row justify">
-                    <div class="py-5 ps-10 lg:ps-5 xl:ps-10 w-full md:w-1/2 flex flex-col justify-center text-center md:text-start">
+                <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row items-center">
+                    <div class="py-5 ps-10 lg:ps-5 xl:ps-10 w-full md:w-5/12 flex flex-col justify-center text-center md:text-start">
                         <p class="uppercase text-primary text-lg font-medium">Step 03</p>
                         <p class="capitalize text-black text-2xl font-semibold">Instant Pre-Approval</p>
-                        <p class="text-sm pt-2">Our powerful lender matching engine will match you with suitable lenders with <b>95% accuracy.</b></p>
                     </div>
-                    <div class="w-full md:w-1/2">
-                        <?= renderImg('step-3.png', 'lib', 'hidden md:block h-full w-full') ?>
-                        <?= renderImg('step-3-sm.png', 'lib', 'md:hidden h-full w-full') ?>
+                    <div class="w-full md:w-7/12">
+                        <?= renderImg('step-3.png', 'lib', 'w-full') ?>
                     </div>
                 </div>
             </div>
@@ -116,9 +111,6 @@
                     <div class="pt-10 pb-5 w-10/12 mx-auto">
                         <p class="uppercase text-black text-lg font-medium">Step 04</p>
                         <p class="capitalize text-primary text-2xl font-semibold">Apply to Lender</p>
-                        <p class="text-sm pt-2">
-                            <b>The fastest ever finance experience!</b> MotorCycle Holding’s Quick Apply supports direct-to-lender submissions
-                        </p>
                     </div>
                     <?= renderImg('step-4.png', 'lib', 'h-full') ?>
                 </div>
@@ -203,7 +195,7 @@
 
                         <p class="text-xl md:text-2xl py-4 leading-none">Your pace</p>
                         <p class="text-sm md:text-base leading-relaxed">
-                            SWhether you want to zip through the process in a few short minutes or simply take your time, you dictate the pace. You can even stop halfway through and come back to it later on.
+                            Whether you want to zip through the process in a few short minutes or simply take your time, you dictate the pace. You can even stop halfway through and come back to it later on.
                         </p>
                     </div>
 
@@ -211,9 +203,9 @@
                         <svg width="27" height="36" viewBox="0 0 27 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M26.8259 24.5507L1.00606 0.163044C0.836022 0.00308769 0.583326 -0.0442233 0.363693 0.04364C0.14288 0.130377 0 0.335391 0 0.562935V35.4368C0 35.6632 0.14288 35.8682 0.361332 35.9561C0.435724 35.9854 0.513658 36 0.590411 36C0.741557 36 0.89034 35.9448 1.00252 35.84L11.7433 25.8338L26.4233 25.5139C26.6606 25.5082 26.8708 25.3685 26.9582 25.159C27.0456 24.9495 26.9936 24.7096 26.8247 24.5507H26.8259Z" fill="white" />
                         </svg>
-                        <p class="text-xl md:text-2xl py-4 leading-none">Improve your credit rating</p>
+                        <p class="text-xl md:text-2xl py-4 leading-none">Your choice</p>
                         <p class="text-sm md:text-base leading-relaxed">
-                            We help you find a lender that suits your needs and financial situation. So once you’ve bought a vehicle on finance and assuming you continue to fulfil your repayments on time, your credit score is likely to improve.
+                        The finance pre-approval web application uses algorithms to instantly deliver tailored results based on the details you add. You can then choose the option that best fits your needs.
                         </p>
                     </div>
                 </div>

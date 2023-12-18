@@ -1,6 +1,6 @@
 <?php
 
-$site = "Team Moto";
+$site = "TeamMoto";
 $phone_number = "0432 406 340";
 
 function renderImg($filename, $folder, $classname = "")
