@@ -78,7 +78,7 @@
                         <p class="uppercase text-primary text-lg font-medium">Step 01</p>
                         <p class="capitalize text-black text-2xl font-semibold">Quick Calculator</p>
                     </div>
-                    <?= renderImg('step-1.png', 'lib', 'h-full') ?>
+                    <?= renderImg('step-1.png', 'lib', 'max-h-[450px]') ?>
                 </div>
             </div>
 
